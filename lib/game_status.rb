@@ -19,9 +19,3 @@ WIN_COMBINATIONS = [
 
 def won?(board)
   WIN_COMBINATIONS.each do |winner|
- if board != winner
-   nil
- end
- end
- 
-  
